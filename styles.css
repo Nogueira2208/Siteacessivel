@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --laranja-claro: #2a6eff;
+    --laranja-claro: #FF862A;
     --alto-contraste-fundo: #000000;
     --alto-contraste-texto: #ffffff;
-    --alto-contraste-link: #05d1fa;
+    --alto-contraste-link: #ffd700;
 }
 
 body {
@@ -24,7 +24,7 @@ section {
 
 
 .nav-link {
-    color: #0b2b6f;
+    color: #CB6D43;
     font-weight: 600;
 }
 
@@ -113,12 +113,10 @@ h2 {
 }
 
 /*#contato {
-    background-image: url('img/premium_photo-1673126682732-8203f39711a4.jpeg');
+    background-image: ;
     background-size: cover;
     padding: 4rem 0;
-    /* Espaçamento interno para a seção de contato */
-
-
+    /* Espaçamento interno para a seção de contato*/
 
 .formulario {
     background-color: #ffffff;
@@ -132,7 +130,7 @@ h2 {
 }
 
 .formulario button {
-    background-color: #000a52;
+    background-color: #CB6D43;
     border: none;
     font-weight: bold;
 }
@@ -197,4 +195,9 @@ h2 {
 }
 .alto-contraste .fundo-galeria {
     background: none;
+}
+
+.img-fluid-roudend-2 {
+    width: 30px;
+    right: 20px;
 }
